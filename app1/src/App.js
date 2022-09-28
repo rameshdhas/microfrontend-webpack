@@ -16,7 +16,7 @@ const App = () => {
       </div>
       <ErrorBoundary
             fallback={
-              <div>Stop trying to make fetch happen. It's not gonna happen.</div>
+              <div>There's an error loading the widget! Please contact admin'</div>
             }
       >
       <Suspense fallback={"loading..."}>
